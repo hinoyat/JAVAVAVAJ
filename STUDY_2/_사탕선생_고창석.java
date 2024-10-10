@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 import java.math.*;
 
-public class _»çÅÁ¼±»ı_°íÃ¢¼® {
+public class _ì‚¬íƒ•ì„ ìƒ_ê³ ì°½ì„ {
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -15,9 +15,7 @@ public class _»çÅÁ¼±»ı_°íÃ¢¼® {
 				BigInteger candy = new BigInteger(br.readLine());
 				sum_candy = sum_candy.add(candy);
 			}
-//			System.out.println("»çÅÁ ÇÕ" + sum_candy);
 			int pos = sum_candy.remainder(N).intValue();
-//			System.out.println("³ª¸ÓÁö" + pos);
 			if (pos == 0) {
 				System.out.println("YES");
 			}else {
